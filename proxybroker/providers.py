@@ -694,8 +694,6 @@ PROVIDERS = [
     Blogspot_com(proto=('HTTP', 'CONNECT:80', 'HTTPS', 'CONNECT:25')),             # 24800
     Gatherproxy_com_socks(proto=('SOCKS4', 'SOCKS5')),                             # 30
     Blogspot_com_socks(proto=('SOCKS4', 'SOCKS5')),                                # 1486
-    Tools_rosinstrument_com(proto=('HTTP', 'CONNECT:80', 'HTTPS', 'CONNECT:25')),  # 4347
-    Tools_rosinstrument_com_socks(proto=('SOCKS4', 'SOCKS5')),                     # 1362
     My_proxy_com(max_conn=2),                                                      # 891
     Checkerproxy_net(),                                                            # 15803
     Aliveproxy_com(),                                                              # 210
@@ -708,4 +706,6 @@ PROVIDERS = [
     # Provider(url='http://blackstarsecurity.com/proxy-list.txt'),  # 7014
     # Provider(url='http://www.get-proxy.net/proxy-archives'),  # 519
     # Free_proxy_cz(),  # 420
+    # Tools_rosinstrument_com(proto=('HTTP', 'CONNECT:80', 'HTTPS', 'CONNECT:25')),  # 4347
+    # Tools_rosinstrument_com_socks(proto=('SOCKS4', 'SOCKS5')),                     # 1362
 ]
